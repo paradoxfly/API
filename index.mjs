@@ -47,7 +47,7 @@ const Alice = {
 const program = async () => {
 
   const isAlice = await ask(
-    `Do you want to create a contract and have APIs interact with it, or would you like to interact with an already existing one as an API?`,
+    `Do you want to create a contract and have APIs interact with it? If no you would have to interact with an already existing one as an API`,
     yesno
   )
   

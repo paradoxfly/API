@@ -4,7 +4,6 @@ const common = {
   ...hasRandom
 }
 export const main = Reach.App(() => {
-  setOptions({ untrustworthyMaps: true });
   const Alice =  Participant('Alice', {
     ...common,
     ready: Fun([], Null),
